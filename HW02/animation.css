@@ -1,1 +1,10 @@
 /* @keyframes 사용해서 fadeIn 제외 애니메이션 적용해서 꾸미기! */
+@keyframes shake {
+    0%, 100% { transform: translateX(0);}
+    25% { transform: translateX(-5px);}
+    75% { transform: translateX(5px);}
+}
+
+.box:nth-child(2) {
+    animation: shake 1s;
+}
