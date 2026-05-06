@@ -27,7 +27,7 @@ console.log(arr2[2]);
 
 // Q1-4. arr2에서 [4, 5, 6] 출력하기
 // Hint: 원소 안의 원소!
-console.log(arr2[2])
+console.log(arr2[1][2])
 
 console.log("======= 문제 구분선 =======");
 
